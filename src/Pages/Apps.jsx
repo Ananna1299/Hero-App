@@ -21,7 +21,12 @@ const Apps = () => {
         <h1 className='text-2xl font-bold'>
         
           
-            ({searchedApps.length}) Apps Found
+            {searchedApps.length === 0 
+             ? 
+             <p>No App Found</p> 
+            : 
+            <p>({searchedApps.length}) Apps Found</p>
+}
         
         </h1>
         <label className='input'>
