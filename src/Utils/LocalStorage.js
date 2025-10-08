@@ -28,13 +28,13 @@ export const updateList = app => {
   }
 }
 
-// delete
-// export const removeFromWishlist = id => {
-//   const wishlist = loadWishlist()
-//   try {
-//     const updatedWishlist = wishlist.filter(p => p.id !== id)
-//     localStorage.setItem('wishlist', JSON.stringify(updatedWishlist))
-//   } catch (err) {
-//     console.log(err)
-//   }
-// }
+
+export const removeFromInstall = id => {
+  const applist = loadlist()
+  try {
+    const updatedApplist = applist.filter(a => a.id !== id)
+    localStorage.setItem('installItems', JSON.stringify(updatedApplist))
+  } catch (err) {
+    console.log(err)
+  }
+}

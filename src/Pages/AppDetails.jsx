@@ -7,6 +7,8 @@ import iconreview from "../assets/icon-review.png"
 import { loadlist, updateList } from '../Utils/LocalStorage';
 import { useState } from 'react';
 
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+
 
 const AppDetails = () => {
     const { id } = useParams()
@@ -28,8 +30,9 @@ const AppDetails = () => {
 
   const {image,companyName,description,reviews,ratingAvg,downloads,ratings,title,size} = app || {}
   //console.log(image,companyName,description,reviews,ratingAvg,downloads,ratings)
-  console.log(installedApps)
+  //console.log(installedApps)
    const isInstalled = installedApps.some(item => Number(item.id) === Number(app.id));
+   
 
   
 
@@ -51,7 +54,7 @@ const AppDetails = () => {
 
 
          <div className='w-10/12 mx-auto   py-10 '>
-            <div className='flex  gap-10 flex-col md:flex-row'> 
+            <div className='flex  gap-10 flex-col md:flex-row mb-4'> 
                 
             
                 <div className='flex items-center w-full  md:w-3/12'>
@@ -111,6 +114,38 @@ const AppDetails = () => {
                     
                 </div>
             </div>
+             <hr className='border-gray-500 mb-20' /> 
+             <h1 className='font-bold text-xl'>Ratings</h1>
+
+             <div className="w-full h-[400px] mb-20">
+             <ResponsiveContainer width="100%" height="100%">
+        <BarChart
+          layout="vertical" 
+          data={ratings}
+          margin={{
+            top: 20,
+            right: 30,
+            left: 60,
+            
+            bottom: 20,
+          }}
+        >
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis type="number" dataKey="count" />
+          <YAxis type="category" dataKey="name" />
+          <Tooltip />
+          <Legend />
+          <Bar dataKey="count" fill="#FF8811" barSize={30} />
+        </BarChart>
+      </ResponsiveContainer>
+             </div>
+             <div>
+                <h1 className='text-xl font-bold'>
+                    Description: 
+                </h1>
+                <p className='text-[#627382]'>{description}</p>
+
+             </div>
         </div>
     );
 };
