@@ -1,0 +1,220 @@
+[
+  {
+    "id": 1,
+    "image": "https://play-lh.googleusercontent.com/nIjhriVDg_kiXTCM5CGf9Xp1JDzn7fk8O6rF6MgSizBdDXsSi4zsNnvaaPXjid2vGgw=w480-h960-rw",
+    "title": "ChatMaster",
+    "companyName": "TechSoft",
+    "description": "A smart chat app for connecting with friends worldwide.",
+    "size": 45,
+    "reviews": 12034,
+    "ratingAvg": 4.5,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 7000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://play-lh.googleusercontent.com/5SLG2s107uPPgbkjFsKxdEMI8P85FDxZzZ2lXsryBxP3DhcH49ILOtW7verzgV6Xoavz=w480-h960-rw",
+    "title": "FitTrack",
+    "companyName": "HealthPlus",
+    "description": "Track your fitness goals and monitor daily activity.",
+    "size": 60,
+    "reviews": 8900,
+    "ratingAvg": 4.3,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 4300 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://play-lh.googleusercontent.com/S5cHQc3S-_idZUyHtxxup7PlZ1mr7kjYVkuiB8klEIqm2OdotHkK1Dwyym-HorMDSbc=w480-h960-rw",
+    "title": "TravelMate",
+    "companyName": "WanderTech",
+    "description": "Plan trips, book hotels, and explore new destinations.",
+    "size": 75,
+    "reviews": 6500,
+    "ratingAvg": 4.6,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 3650 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://play-lh.googleusercontent.com/ulmy8Fcih3fR6Bfq7rbROrGvYvz3X7RHDg2JllgBOer9Oap1ONP2JvygBzUt1zqvyuw=w480-h960-rw",
+    "title": "Foodie",
+    "companyName": "YumApps",
+    "description": "Discover recipes, restaurants, and food trends.",
+    "size": 55,
+    "reviews": 10450,
+    "ratingAvg": 4.4,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 6250 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://play-lh.googleusercontent.com/uivetWtQc8iKlEkdLFlaQltypYq6MLP_bI02yE9obliSWRxiHXhpqs3a-tZwNRFdt52L=w480-h960-rw",
+    "title": "PhotoMagic",
+    "companyName": "PixelWorks",
+    "description": "Edit photos with professional-grade tools and filters.",
+    "size": 90,
+    "reviews": 8700,
+    "ratingAvg": 4.7,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 5250 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://play-lh.googleusercontent.com/tw_coGKgk1K_zO-Ypf9zBKV1s-KT3dYN1MIUxIqtnbfmON5x_YmuoAr31gE4oSfJHNtA-aStTd-qe9R8S6NVyA=w480-h960-rw",
+    "title": "LearnLang",
+    "companyName": "EduTech",
+    "description": "Learn new languages easily with fun exercises and quizzes.",
+    "size": 50,
+    "reviews": 9500,
+    "ratingAvg": 4.2,
+    "downloads": 2800000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 4400 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://play-lh.googleusercontent.com/YRbRG5SGg4YytVHVs_sPH30FTLgo7vPiPiiUEACQAM1aNm9SaCTsttYo-8qvCqpdQ8Kq=w480-h960-rw",
+    "title": "MoneyMate",
+    "companyName": "FinTech Labs",
+    "description": "Manage your personal finances and investments easily.",
+    "size": 65,
+    "reviews": 7200,
+    "ratingAvg": 4.5,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 3600 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://play-lh.googleusercontent.com/bfy2rE4Iu_15VyVAujaCtwQkThjUWWZSljcpnX2pdd4tcTO8SoGwrBhcTMwqeYjRlw=w480-h960-rw",
+    "title": "NewsFlash",
+    "companyName": "InfoDaily",
+    "description": "Stay updated with breaking news and trending stories worldwide.",
+    "size": 40,
+    "reviews": 11000,
+    "ratingAvg": 4.3,
+    "downloads": 4500000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 5100 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://play-lh.googleusercontent.com/1TO53OEq3vDyIDnZgkrvsseC52YrZWo2XXfnqVFxD8yUh0d1HjAA8kUf8FS-iNljsIvM=w480-h960-rw",
+    "title": "MusicVibes",
+    "companyName": "SoundWave",
+    "description": "Stream your favorite music and create playlists effortlessly.",
+    "size": 85,
+    "reviews": 9800,
+    "ratingAvg": 4.6,
+    "downloads": 3700000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 3800 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://play-lh.googleusercontent.com/Hg-F1BZQ15QdPT_Nrr5HWoQs_h6uzQQ9EkNfrAHT12iRoE5NGWOHB2Oz8tWAFzxHVqsT=w480-h960-rw",
+    "title": "TaskMaster",
+    "companyName": "ProductivityPro",
+    "description": "Organize your tasks and increase productivity efficiently.",
+    "size": 55,
+    "reviews": 6400,
+    "ratingAvg": 4.4,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 3500 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://play-lh.googleusercontent.com/GdXjVGXQ90eVNpb1VoXWGT3pff2M9oe3yDdYGIsde7W9h3s2S6FDLfo1uO-gljBZ1QXO=w480-h960-rw",
+    "title": "WeatherNow",
+    "companyName": "ClimateTech",
+    "description": "Get accurate weather forecasts and alerts instantly.",
+    "size": 30,
+    "reviews": 8200,
+    "ratingAvg": 4.5,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 3400 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://play-lh.googleusercontent.com/jiWqFgkhiE-NZxJroudlDfHG0NNsQ0AhpEimf5L2kVvDl105eIflrFAtMaUA6m0qNg=w480-h960-rw",
+    "title": "GameZone",
+    "companyName": "FunGames",
+    "description": "Play exciting games and compete with players worldwide.",
+    "size": 120,
+    "reviews": 15000,
+    "ratingAvg": 4.7,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 8800 }
+    ]
+  }
+  
+  
+]
