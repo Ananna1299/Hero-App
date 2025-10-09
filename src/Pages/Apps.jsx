@@ -43,7 +43,9 @@ const Apps = () => {
        </div>
     <div className='flex justify-between py-10 items-center'>
         <h1 className='text-2xl font-bold'>
-        <p>({searchedApps.length}) Apps Found</p>
+            {searchedApps.length==0?
+                "No Apps Found":
+               <p>({searchedApps.length}) Apps Found</p>}
         
         </h1>
         <label className='input'>
