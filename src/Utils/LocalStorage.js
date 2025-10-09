@@ -1,3 +1,5 @@
+import { toast } from "react-toastify"
+
 // get
 export const loadlist = () => {
   try {
@@ -15,11 +17,15 @@ export const updateList = app => {
 
   try {
     const isDuplicate = installlist.some(a => a.id === app.id)
-    if (isDuplicate) return isDuplicate
+    if (isDuplicate) return toast.info('Already Installed!', {
+      position: 'top-center',
+    })
     else{
         const updatedInstalllist = [...installlist, app]
         localStorage.setItem('installItems', JSON.stringify(updatedInstalllist))
-        return isDuplicate;
+        return toast.info('Installation Completed!', {
+      position: 'top-center',
+    });
 
     }
     

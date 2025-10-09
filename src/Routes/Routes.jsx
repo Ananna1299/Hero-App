@@ -18,18 +18,18 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        Component: Home,
+        element:<Home></Home>,
       },
       {
-        path: '/app',
+        path: 'app',
         element: <Apps />,
       },
       {
-        path: '/installation',
+        path: 'installation',
         element: <Installation />,
       },
       {
-        path:'/app/:id',
+        path:'app/:id',
         element:<AppDetails/>,
         errorElement:<ErrorPageAnother></ErrorPageAnother>
 

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { loadlist, removeFromInstall } from '../Utils/LocalStorage';
 import star from "../assets/icon-ratings.png"
 import download from "../assets/icon-downloads.png"
+import { toast } from 'react-toastify';
 
 
 const Installation = () => {
@@ -23,6 +24,9 @@ const Installation = () => {
   const handleRemove = id => {
     // remove from localstorage
     removeFromInstall(id)
+    toast.info('UnInstall App!', {
+          position: 'top-center',
+        })
     setinstallApp(prev => prev.filter(p => p.id !== id))
   }
 

@@ -1,11 +1,11 @@
 import React from 'react'
-import {useNavigate} from 'react-router'
+
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import ErrorImg from "../assets/App-Error.png"
 
 const ErrorPageAnother = () => {
-     let navigate = useNavigate();
+    
     return (
           <>
       
@@ -17,12 +17,7 @@ const ErrorPageAnother = () => {
       <p className="text-gray-500 mb-6">
         The page you are looking for is not available.
       </p>
-      <button
-        onClick={()=>navigate(-1)}
-        className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-6 rounded-lg transition"
-      >
-        Go Back!
-      </button>
+      
     </div>
      
     </>

@@ -5,6 +5,7 @@ import { Link, NavLink } from 'react-router';
 import "./Navbar.css"
 
 const Navbar = () => {
+    
     return (
         <div className="navbar px-8 bg-base-100 shadow-sm">
   <div className="navbar-start">
@@ -32,7 +33,9 @@ const Navbar = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-    <li><NavLink to='/' >Home</NavLink></li>
+        <li>
+            <NavLink to='/' >Home</NavLink>
+        </li>
         <li>
           <NavLink to='/app'>Apps</NavLink>
           
